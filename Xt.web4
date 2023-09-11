@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+ <html>
+ <head> 
+<metacharset="utf-8"/> 
+ <title>HTML5SemanticTagsDemo</title>
+<style>
+body{background-color:#FFFDD0;}
+aside{float:right;width:25%;background-color:cyan;font-style:italic;padding:15px;}
+main{float:left;width:70%;}
+footer{position:fixed;left:0;bottom:0;width:100%;text-align:center;}
+mark{background-color:yellow;color:black; }
+figure{display:inline-block;margin:auto;}
+ figcaption{font-style:italic; }
+</style> 
+</head>
+ <body>
+<article>
+<header>
+<h1>My Travelogue</h1>
+<p>Random Escapades</p>
+</header>
+ <main>
+<figure>
+<imgsrc="journey.jpeg"alt="ExampleImage"width="350" height="235">
+<figcaption>The road never ends</figcaption>
+</figure>
+<section>
+  <h2>Mandya</h2>
+<p>Mandya is a popular city located in the Karnataka. It is popularly called the"Sugar city ".</p>
+ </section> 
+<section> 
+ <h2>Mysore</h2>
+<p> The city is also known as the City of Palaces, Mysuru has always enchanted its visitors with its quaint charm.</p>
+ </section> 
+</main> 
+<aside> 
+<section>
+ <p>UpcomingTrekkedplannedto<mark>KunthiBetta</mark>will be sharing detils soon</p>
+ <details>
+<summary>TentativeDates</summary>
+<p>07thJuly2023</p>
+   </details> 
+   </section>
+ </aside>
+<footer>
+<p>&copy;2023author</p>
+</footer>
+ </article>
+ </body> 
+ </html>
